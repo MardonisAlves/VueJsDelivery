@@ -7,7 +7,7 @@
      img-alt="Image"
      img-top
      tag="article"
-     style="max-width: 12rem;"
+     style="max-width: 10rem;"
      class="mb-2">
      <b-card-text>
        Some quick example text to build on the card title and make up the bulk of the card's content.
@@ -22,7 +22,7 @@
       img-alt="Image"
       img-top
       tag="article"
-      style="max-width: 12rem;"
+      style="max-width: 10rem;"
       class="mb-2">
       <b-card-text>
         Some quick example text to build on the card title and make up the bulk of the card's content.
@@ -36,7 +36,7 @@
       img-alt="Image"
       img-top
       tag="article"
-      style="max-width: 12rem;"
+      style="max-width: 10rem;"
       class="mb-2">
       <b-card-text>
         Some quick example text to build on the card title and make up the bulk of the card's content.
@@ -52,7 +52,7 @@
        img-alt="Image"
        img-top
        tag="article"
-       style="max-width: 12rem;"
+       style="max-width: 10rem;"
        class="mb-2">
        <b-card-text>
          Some quick example text to build on the card title and make up the bulk of the card's content.
@@ -68,7 +68,7 @@
         img-alt="Image"
         img-top
         tag="article"
-        style="max-width: 12rem;"
+        style="max-width: 10rem;"
         class="mb-2">
         <b-card-text>
           Some quick example text to build on the card title and make up the bulk of the card's content.
