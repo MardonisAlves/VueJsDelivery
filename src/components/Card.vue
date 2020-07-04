@@ -90,6 +90,6 @@ export default {
 }
 .card{
   margin-top:80px;
-  margin-left:24px;
+  margin-left:4px;
 }
 </style>
