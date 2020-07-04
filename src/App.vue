@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <div>
-      <b-navbar toggleable type="dark" variant="dark">
       <b-navbar toggleable type="dark" variant="dark" fixed="top">
         <b-navbar-brand href="/">
           <div class="h2 mb-0">
