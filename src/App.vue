@@ -24,6 +24,9 @@
        </b-collapse>
      </b-navbar>
     </div>
+    <div>
+      <Card></Card>
+    </div>
       <router-view></router-view>
   </div>
 </template>
@@ -38,7 +41,12 @@ Vue.use(BootstrapVue)
 Vue.use(IconsPlugin)
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
+
+import Card from './components/Card'
 export default {
+  components: {
+    Card
+  }
   name: 'app'
 }
 </script>
