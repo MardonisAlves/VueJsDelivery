@@ -3,7 +3,7 @@
   <b-container fluid>
   <b-row align-h="around">
   <b-card
-     title="Card Title"
+     title="Calabresa"
      img-src="https://picsum.photos/600/300/?image=21"
      img-alt="Image"
      img-top
@@ -11,7 +11,8 @@
      style="max-width: 10rem;"
      class="mb-2">
      <b-card-text>
-       Some quick example text to build on the card title and make up the bulk of the card's content.
+       <p>Pizza M Valor 20.50</p>
+       <p>Pizza G Valor 22.50</p>
      </b-card-text>
 
      <b-button href="#" variant="primary">+</b-button>

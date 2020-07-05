@@ -2,7 +2,7 @@
   <div id="app">
     <div>
       <b-container>
-      <b-navbar toggleable type="dark" variant="dark" fixed="top">
+      <b-navbar toggleable type="dark" variant="info" fixed="top">
         <b-navbar-brand href="/">
           <div class="h2 mb-0">
             <b-icon icon="house"></b-icon>
