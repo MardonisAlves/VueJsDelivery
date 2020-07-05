@@ -1,6 +1,7 @@
 <template>
   <div>
-  <b-row>
+  <b-container fluid>
+  <b-row align-h="center">
   <b-card
      title="Card Title"
      img-src="https://picsum.photos/600/300/?image=21"
@@ -77,7 +78,9 @@
         <b-button href="#" variant="primary">+</b-button>
       </b-card>
     </b-row>
+  </b-container>
     </div>
+
 </template>
 <script>
 export default {
@@ -90,6 +93,6 @@ export default {
 }
 .card{
   margin-top:80px;
-  margin-left:24px;
+  margin-left:1rem;
 }
 </style>

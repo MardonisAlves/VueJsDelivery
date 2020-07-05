@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <div class="container fluid">
+    <div>
+      <b-container>
       <b-navbar toggleable type="dark" variant="dark" fixed="top">
         <b-navbar-brand href="/">
           <div class="h2 mb-0">
@@ -24,6 +25,7 @@
        </b-collapse>
      </b-navbar>
     </div>
+  </b-container>
     <div>
       <Card></Card>
     </div>
@@ -63,8 +65,6 @@ body {
   text-align: center;
   color: #2c3e50;
   margin-top: 0px;
-  margin-right: 0px;
-  margin-left: 0px;
 }
 
 main {
