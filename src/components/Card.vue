@@ -11,8 +11,8 @@
      style="max-width: 10rem;"
      class="mb-2">
      <b-card-text>
-       <p>Pizza M Valor 20.50</p>
-       <p>Pizza G Valor 22.50</p>
+       <p>M Valor 20.50</p>
+       <p>G Valor 22.50</p>
      </b-card-text>
 
      <b-button href="#" variant="primary">+</b-button>
@@ -94,5 +94,8 @@ export default {
 }
 .card{
   margin-top:80px;
+}
+.card-text{
+  font-size: 12px;
 }
 </style>
