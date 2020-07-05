@@ -1,7 +1,7 @@
 <template>
   <div>
   <b-container fluid>
-  <b-row align-h="center">
+  <b-row align-h="around">
   <b-card
      title="Card Title"
      img-src="https://picsum.photos/600/300/?image=21"
@@ -93,6 +93,5 @@ export default {
 }
 .card{
   margin-top:80px;
-  margin-left:1rem;
 }
 </style>
