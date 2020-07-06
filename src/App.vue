@@ -2,7 +2,7 @@
   <div id="app">
     <div>
       <b-container>
-      <b-navbar toggleable type="dark" variant="info" fixed="top">
+      <b-navbar toggleable type="dark" variant="" fixed="top">
         <b-navbar-brand href="/">
           <div class="h2 mb-0">
             <b-icon icon="house"></b-icon>
@@ -66,28 +66,9 @@ body {
   color: #2c3e50;
   margin-top: 0px;
 }
-
-main {
-  text-align: center;
-  margin-top: 40px;
+.navbar{
+  background-color:#F39C12 ;
 }
 
-header {
-  margin: 0;
-  height: 56px;
-  padding: 0 16px 0 24px;
-  background-color: #35495E;
-  color: #ffffff;
-}
 
-header span {
-  display: block;
-  position: relative;
-  font-size: 20px;
-  line-height: 1;
-  letter-spacing: .02em;
-  font-weight: 400;
-  box-sizing: border-box;
-  padding-top: 16px;
-}
 </style>
