@@ -1,36 +1,55 @@
 <template>
   <div>
-
+  <b-container>
     <b-list-group>
+        <b-row>
+          <b-col sm="4">
+          <b-list-group-item class="d-flex align-items-center">
+            <b-avatar class="mr-3"></b-avatar>
+            <span class="mr-auto">J. Circlehead</span>
+            <b-badge>5</b-badge>
+          </b-list-group-item>
+        </b-col>
 
-      <b-list-group-item class="d-flex align-items-center">
-        <b-avatar class="mr-3"></b-avatar>
-        <span class="mr-auto">J. Circlehead</span>
-        <b-badge>5</b-badge>
-      </b-list-group-item>
+        <b-col sm="4">
+        <b-list-group-item class="d-flex align-items-center">
+          <b-avatar variant="primary" text="BV" class="mr-3"></b-avatar>
+          <span class="mr-auto">BootstrapVue</span>
+          <b-badge>12</b-badge>
+        </b-list-group-item>
+      </b-col>
 
-      <b-list-group-item class="d-flex align-items-center">
-        <b-avatar variant="primary" text="BV" class="mr-3"></b-avatar>
-        <span class="mr-auto">BootstrapVue</span>
-        <b-badge>12</b-badge>
-      </b-list-group-item>
+      <b-col sm="4">
+        <b-list-group-item class="d-flex align-items-center">
+          <b-avatar variant="info" src="https://placekitten.com/300/300" class="mr-3"></b-avatar>
+          <span class="mr-auto">Super Kitty</span>
+          <b-badge>9</b-badge>
+        </b-list-group-item>
+      </b-col>
 
-      <b-list-group-item class="d-flex align-items-center">
-        <b-avatar variant="info" src="https://placekitten.com/300/300" class="mr-3"></b-avatar>
-        <span class="mr-auto">Super Kitty</span>
-        <b-badge>9</b-badge>
-      </b-list-group-item>
+      <b-col sm="4">
+        <b-list-group-item class="d-flex align-items-center">
+          <b-avatar variant="info" src="static/images/calabresa.png" class="mr-3"></b-avatar>
+          <span class="mr-auto">Super Kitty</span>
+          <b-badge>9</b-badge>
+        </b-list-group-item>
+      </b-col>
 
-      <b-list-group-item class="d-flex align-items-center">
-        <b-avatar variant="success" icon="people-fill" class="mr-3"></b-avatar>
-        <span class="mr-auto">ACME group</span>
-        <b-badge>7</b-badge>
-      </b-list-group-item>
+      <b-col sm="4">
+        <b-list-group-item class="d-flex align-items-center">
+          <b-avatar variant="success" icon="people-fill" class="mr-3"></b-avatar>
+          <span class="mr-auto">ACME group</span>
+          <b-badge>7</b-badge>
+        </b-list-group-item>
+      </b-col>
 
-    </b-list-group>
-  </div>
+        </b-row>
+  </b-list-group>
+    </div>
+  </b-container>
+    </div>
+
 </template>
-
 <script>
 export default {
   name: 'Card'
@@ -38,7 +57,6 @@ export default {
 </script>
 <style>
 .list-group {
-  margin-top: 20px;
-  width: 450px;
+  margin-top: 100px;
 }
 </style>
