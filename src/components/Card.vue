@@ -1,52 +1,44 @@
 <template>
   <div>
-  <b-container>
-  <b-row align-h="around">
-    <b-card-group deck>
-     <b-card title="Calabresa" img-src="static/images/calabresa.png" img-alt="Card image" img-top>
-       <b-card-text>
-         Some quick example text to build on the card and make up the bulk of the card's content.
-      </b-card-text>
-      </b-card>
 
-      <b-card title="Calabresa" img-src="static/images/calabresa.png" img-alt="Card image" img-top>
-        <b-card-text>
-          Some quick example text to build on the card and make up the bulk of the card's content.
-       </b-card-text>
-       </b-card>
+    <b-list-group>
 
-       <b-card title="Calabresa" img-src="static/images/calabresa.png" img-alt="Card image" img-top>
-         <b-card-text>
-           Some quick example text to build on the card and make up the bulk of the card's content.
-        </b-card-text>
-        </b-card>
+      <b-list-group-item class="d-flex align-items-center">
+        <b-avatar class="mr-3"></b-avatar>
+        <span class="mr-auto">J. Circlehead</span>
+        <b-badge>5</b-badge>
+      </b-list-group-item>
 
-        <b-card title="Calabresa" img-src="static/images/calabresa.png" img-alt="Card image" img-top>
-          <b-card-text>
-            Some quick example text to build on the card and make up the bulk of the card's content.
-         </b-card-text>
-       </b-card>
+      <b-list-group-item class="d-flex align-items-center">
+        <b-avatar variant="primary" text="BV" class="mr-3"></b-avatar>
+        <span class="mr-auto">BootstrapVue</span>
+        <b-badge>12</b-badge>
+      </b-list-group-item>
 
-  </b-card-group>
-  </b-row>
-  </b-container>
-    </div>
+      <b-list-group-item class="d-flex align-items-center">
+        <b-avatar variant="info" src="https://placekitten.com/300/300" class="mr-3"></b-avatar>
+        <span class="mr-auto">Super Kitty</span>
+        <b-badge>9</b-badge>
+      </b-list-group-item>
 
+      <b-list-group-item class="d-flex align-items-center">
+        <b-avatar variant="success" icon="people-fill" class="mr-3"></b-avatar>
+        <span class="mr-auto">ACME group</span>
+        <b-badge>7</b-badge>
+      </b-list-group-item>
+
+    </b-list-group>
+  </div>
 </template>
+
 <script>
 export default {
   name: 'Card'
 }
 </script>
 <style>
-.card{
-  border: 0px;
-  margin-top:80px;
-}
-.card-title{
-  font-size:12px;
-}
-.card-text{
-  font-size: 10px;
+.list-group {
+  margin-top: 20px;
+  width: 450px;
 }
 </style>

@@ -1,37 +1,32 @@
 <template>
   <div id="app">
     <div>
-      <b-container>
-      <b-navbar toggleable type="dark" variant="" fixed="top">
-        <b-navbar-brand href="/">
-          <div class="h2 mb-0">
-            <b-icon icon="house"></b-icon>
-          </div>
-        </b-navbar-brand>
+          <b-navbar type="dark" variant="success" fixed="top">
+          <b-navbar-nav>
+            <b-nav-item href="#" v-b-toggle.sidebar-no-header>Menu</b-nav-item>
+            <b-nav-item href="/">Cardapio</b-nav-item>
+            <b-nav-item-dropdown text="User" right>
+              <b-dropdown-item href="#">login</b-dropdown-item>
+              <b-dropdown-item href="#">exit</b-dropdown-item>
+            </b-nav-item-dropdown>
+        </b-navbar-nav>
+        </b-navbar>
 
-       <b-navbar-toggle target="navbar-toggle-collapse">
-         <template v-slot:default="{ expanded }">
-           <b-icon v-if="expanded" icon="chevron-bar-up"></b-icon>
-           <b-icon v-else icon="chevron-bar-down"></b-icon>
-         </template>
-       </b-navbar-toggle>
-
-       <b-collapse id="navbar-toggle-collapse" is-nav>
-         <b-navbar-nav class="ml-auto">
-           <b-nav-item href="/users">List Users</b-nav-item>
-           <b-nav-item href="/newuser">New User</b-nav-item>
-           <b-nav-item href="#" disabled>Disabled</b-nav-item>
-         </b-navbar-nav>
-       </b-collapse>
-     </b-navbar>
-    </div>
-  </b-container>
-    <div>
-      <Card></Card>
-    </div>
-      <router-view></router-view>
+  <div>
+    <!--CARDAPIO-->
+    <Card></Card>
   </div>
+  </div>
+
+  <div>
+    <!--SIDEBAR-->
+    <SideBar></SideBar>
+  </div>
+
+    <router-view></router-view>
+</div>
 </template>
+
 
 <script>
 import Vue from 'vue'
@@ -43,11 +38,13 @@ Vue.use(BootstrapVue)
 Vue.use(IconsPlugin)
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
-
 import Card from './components/Card'
+import SideBar from './components/sidebar/sidebar'
+
 export default {
   components: {
-    Card
+    Card,
+    SideBar
   },
   name: 'app'
 }
@@ -65,9 +62,6 @@ body {
   text-align: center;
   color: #2c3e50;
   margin-top: 0px;
-}
-.navbar{
-  background-color:#F39C12 ;
 }
 
 
