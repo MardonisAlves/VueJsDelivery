@@ -3,7 +3,7 @@
   <b-container>
     <b-list-group>
         <b-row>
-          <b-col sm="4">
+          <b-col sm="4" md="6" lg="6">
           <b-list-group-item class="d-flex align-items-center">
             <b-avatar class="mr-3"></b-avatar>
             <span class="mr-auto">J. Circlehead</span>
@@ -11,7 +11,7 @@
           </b-list-group-item>
         </b-col>
 
-        <b-col sm="4">
+        <b-col sm="4" md="6" lg="6">
         <b-list-group-item class="d-flex align-items-center">
           <b-avatar variant="primary" text="BV" class="mr-3"></b-avatar>
           <span class="mr-auto">BootstrapVue</span>
@@ -19,7 +19,7 @@
         </b-list-group-item>
       </b-col>
 
-      <b-col sm="4">
+      <b-col sm="4" md="6" lg="6">
         <b-list-group-item class="d-flex align-items-center">
           <b-avatar variant="info" src="https://placekitten.com/300/300" class="mr-3"></b-avatar>
           <span class="mr-auto">Super Kitty</span>
@@ -27,7 +27,7 @@
         </b-list-group-item>
       </b-col>
 
-      <b-col sm="4">
+      <b-col sm="4" md="6" lg="6">
         <b-list-group-item class="d-flex align-items-center">
           <b-avatar variant="info" src="static/images/calabresa.png" class="mr-3"></b-avatar>
           <span class="mr-auto">Super Kitty</span>
@@ -35,7 +35,7 @@
         </b-list-group-item>
       </b-col>
 
-      <b-col sm="4">
+      <b-col sm="4" md="6" lg="6">
         <b-list-group-item class="d-flex align-items-center">
           <b-avatar variant="success" icon="people-fill" class="mr-3"></b-avatar>
           <span class="mr-auto">ACME group</span>
