@@ -1,9 +1,10 @@
 <template>
   <div id="app">
     <div>
-        <b-navbar toggleable="lg" type="dark" variant="warning" fixed="top" >
+        <b-navbar toggleable="lg"  fixed="top" >
+          <!--SIDE-BAR-LEFT-->
            <b-navbar-brand href="#" v-b-toggle.sidebar-no-header>
-                          <b-icon-justify variant="dark" font-scale="3"></b-icon-justify>
+                            <b-icon-house-fill variant="dark"  font-scale="3"></b-icon-house-fill>
           </b-navbar-brand>
 
            <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -15,14 +16,10 @@
 
              <!-- Right aligned nav items -->
              <b-navbar-nav class="ml-auto">
-               <b-nav-item-dropdown right>
-                 <!-- Using 'button-content' slot -->
-                 <template v-slot:button-content>
-                   <em>User</em>
-                 </template>
-                 <b-dropdown-item href="#">Profile</b-dropdown-item>
-                 <b-dropdown-item href="#">Sign Out</b-dropdown-item>
-               </b-nav-item-dropdown>
+               <b-nav-item right>
+            <!--SIDE BAR LEFT-->
+                 <b-nav-item href="#"><b-avatar variant="dark"></b-avatar></b-nav-item>
+               </b-nav-item>
              </b-navbar-nav>
            </b-collapse>
          </b-navbar>
@@ -83,6 +80,14 @@ body {
   color: #2c3e50;
   margin-top: 0px;
 }
+.navbar-nav .nav-item a{
+  color: white  !important;
+}
+.navbar {
+  background-color: #C70039 !important;
+}
+
+
 
 
 </style>
