@@ -1,10 +1,10 @@
 <template>
   <div id="app">
     <div>
-        <b-navbar toggleable="lg"  fixed="top" >
+        <b-navbar toggleable="sm"  fixed="top" >
           <!--SIDE-BAR-LEFT-->
            <b-navbar-brand href="#" v-b-toggle.sidebar-no-header>
-                            <b-icon-house-fill variant="dark"  font-scale="3"></b-icon-house-fill>
+                            <b-icon-house-fill variant="warning"  font-scale="3"></b-icon-house-fill>
           </b-navbar-brand>
 
            <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -18,7 +18,7 @@
              <b-navbar-nav class="ml-auto">
                <b-nav-item right>
             <!--SIDE BAR LEFT-->
-                 <b-nav-item href="#"><b-avatar variant="dark"></b-avatar></b-nav-item>
+                 <b-nav-item href="#"><b-avatar variant="warning"></b-avatar></b-nav-item>
                </b-nav-item>
              </b-navbar-nav>
            </b-collapse>
@@ -81,13 +81,17 @@ body {
   margin-top: 0px;
 }
 .navbar-nav .nav-item a{
-  color: white  !important;
+  color: #FFC300  !important;
 }
 .navbar {
   background-color: #C70039 !important;
 }
-
-
+.navbar .navbar-toggler {
+  background: #FFC300;
+}
+.navbar .nabar-toggler .navbar-toggler-icon {
+      color: white;
+}
 
 
 </style>
