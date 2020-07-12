@@ -20,6 +20,7 @@
           <span class="mr-auto">{{pizza.nome}}</span>
           <b-badge variant="danger">M{{pizza.valorM}}</b-badge>
           <b-badge variant="warning">G{{pizza.valorG}}</b-badge>
+          <b-icon-eye-fill variant="dark"></b-icon>
         </b-list-group-item>
       </b-col>
         </b-row>
