@@ -13,12 +13,15 @@
     </div>
 
     <b-list-group>
-      <b-row v-for="pizza  in pizzas">
-      <b-col sm="4" md="6" lg="6">
+      <b-row >
+      <b-col sm="4" md="6" lg="6" v-for="pizza  in pizzas">
         <b-list-group-item class="d-flex align-items-center">
-          <b-avatar variant="info" src="{{user.urlimg}}" class="mr-3" size="6rem"></b-avatar>
-          <span class="mr-auto">Super Kitty</span>
-          <b-badge>9</b-badge>
+          <b-avatar variant="info" v-bind:src=" hosturl + pizza.urlimg"
+          class="mr-3" size="6rem"></b-avatar>
+
+          <span class="mr-auto">{{pizza.nome}}</span>
+          <b-badge>{{pizza.valorM}}</b-badge>
+          <b-badge>{{pizza.valorG}}</b-badge>
         </b-list-group-item>
       </b-col>
         </b-row>
@@ -35,6 +38,7 @@ export default {
   name: 'Card',
   data(){
     return {
+      hosturl : 'https://infinite-springs-64835.herokuapp.com/img/uploads/cardapio/',
       pizzas : [],
       loading: true,
       errored: false,
