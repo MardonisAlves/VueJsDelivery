@@ -43,8 +43,9 @@
 
 <script>
 import Vue from 'vue'
+import axios from 'axios'
+Vue.use(axios)
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
-
 // Install BootstrapVue
 Vue.use(BootstrapVue)
 // Optionally install the BootstrapVue icon components plugin

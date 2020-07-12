@@ -14,11 +14,12 @@
     "serve-production": "npm run build && http-server dist -p 8888"
   },
   "dependencies": {
+    "axios": "^0.19.2",
     "bootstrap": "^4.5.0",
     "bootstrap-vue": "^2.15.0",
+    "express": "^4.17.1",
     "vue": "^2.6.11",
-    "vue-router": "^3.0.1",
-    "express": "^4.17.1"
+    "vue-router": "^3.0.1"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.5",
