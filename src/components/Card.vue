@@ -16,11 +16,11 @@
       <b-row >
       <b-col sm="4" md="6" lg="6" v-for="pizza  in pizzas">
         <b-list-group-item class="d-flex align-items-center">
-          <b-avatar variant="info" v-bind:src=" hosturl + pizza.urlimg" class="mr-3" size="6rem"></b-avatar>
+          <b-avatar variant="info" v-bind:src=" hosturl + pizza.urlimg" class="mr-3" size="4rem"></b-avatar>
           <span class="mr-auto">{{pizza.nome}}</span>
           <b-badge variant="danger">M{{pizza.valorM}}</b-badge>
           <b-badge variant="warning">G{{pizza.valorG}}</b-badge>
-          <b-icon-eye-fill variant="dark"></b-icon>
+          <b-badge variant="light"><b-icon-eye variant="dark" font-scale="2"></b-icon></b-badge>
         </b-list-group-item>
       </b-col>
         </b-row>
