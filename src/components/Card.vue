@@ -14,9 +14,10 @@
 
     <b-list-group>
       <b-row >
-      <b-col sm="4" md="6" lg="6" v-for="pizza  in pizzas">
-        <b-list-group-item class="d-flex align-items-center">
-          <b-avatar variant="info" v-bind:src=" hosturl + pizza.urlimg" class="mr-3" size="2rem"></b-avatar>
+      <b-col sm="4" md="4" lg="4" v-for="pizza  in pizzas">
+        <b-list-group-item>
+          <!--<b-avatar variant="info" v-bind:src=" hosturl + pizza.urlimg" class="mr-3" size="2rem"></b-avatar>-->
+          <b-img thumbnail fluid v-bind:src=" hosturl + pizza.urlimg" alt="Image 1" rounded="circle"></b-img>
           <span class="mr-auto">{{pizza.nome}}</span>
           <b-badge variant="danger">M{{pizza.valorM}}</b-badge>
           <b-badge variant="warning">G{{pizza.valorG}}</b-badge>
