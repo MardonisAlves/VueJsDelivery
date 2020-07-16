@@ -35,6 +35,11 @@
     <!--SIDEBAR-->
     <SideBar></SideBar>
   </div>
+  <!--SIDEBARPIZZA-->
+    <SideBarPizza></SideBarPizza>
+  <div>
+
+  </div>
 
     <router-view></router-view>
 </div>
@@ -54,11 +59,13 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import Card from './components/Card'
 import SideBar from './components/sidebar/sidebar'
+import SideBarPizza from './components/sidebar/sidebarPizza'
 
 export default {
   components: {
     Card,
-    SideBar
+    SideBar,
+    SideBarPizza
   },
   name: 'app'
 }
