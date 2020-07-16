@@ -24,21 +24,19 @@
            </b-collapse>
          </b-navbar>
 
-
-  <div>
     <!--CARDAPIO-->
     <Card></Card>
-  </div>
-  </div>
-
-  <div>
     <!--SIDEBAR-->
     <SideBar></SideBar>
-  </div>
+ 
   <!--SIDEBARPIZZA-->
     <SideBarPizza></SideBarPizza>
+  
   <div>
-
+    <b-navbar toggleable="sm"  fixed="bottom" >
+      <h5>Bottom Icons</h5>
+    </b-navbar>
+  </div>
   </div>
 
     <router-view></router-view>
@@ -93,6 +91,7 @@ body {
 }
 .navbar {
   background-color: #C70039 !important;
+  color: aliceblue;
 }
 .navbar .navbar-toggler {
   background: #FFC300;

@@ -67,6 +67,7 @@ export default {
 .list-group {
   border: 0px;
   margin-top: 100px;
+  margin-bottom: 0px;
 }
 .list-group .list-group-item {
  border: 0px;
